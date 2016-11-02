@@ -14,12 +14,12 @@ h2, p {
   margin-bottom: 40px;
 }
 
-section.container:last-child, section.container p:last-child {
-  margin-bottom: 0;
-}
-
 section.container h2 {
   font-size: 30px;
+}
+
+section.container:last-child, section.container p:last-child {
+  margin-bottom: 0;
 }
 
 section.container.static {
@@ -27,18 +27,23 @@ section.container.static {
 }
 
 section.container.parallax {
-  height: 600px;
+  padding: 240px 0;
+  background-position: 0 ,0;
+
+  /* height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 section.container.parallax h1 {
+  line-height: 1;
+  /*line-height: 600px;*/
+
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  line-height: 600px;
   color: rgba(255,255,255,0.8);
   font-family: sans-serif;
   text-shadow: 0 0 10px rgba(0,0,0,0.2);
