@@ -17,6 +17,9 @@
   transform: translateZ(-1px) scale(2);
   background-color: rgba(0,0,255,0.5);
   text-align: center;
+}
+
+.background-1 {
   background-image: url('./images/bg_1.jpeg');
   background-size: cover;
 }
@@ -31,5 +34,4 @@
   height: 100vh;
   transform-style: preserve-3d;
   background-color: rgba(255, 0, 0, 0.5);
-  /*transform: translate3d(700px, 0, -800px) rotateY(30deg);*/
 }
